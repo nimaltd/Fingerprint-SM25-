@@ -14,7 +14,7 @@
   <br />
  7)Put FP_RxCallBack() function to your Interrupt routin on "stm32fxxx_it.c".
   <br />
- 8)Put FP_Loop() into your "while" on Mani Function.
+ 8)Put FP_Loop() into your "while" in Main Function.
   <br />
  9)Call FP_Init().
   <br />
