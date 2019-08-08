@@ -8,11 +8,13 @@
   <br />
  4)Change Selected USART to LL Library.
   <br />
- 5)Config your Board on "FingerprintConfig.h"
+ 5) Select "General peripheral Initalizion as a pair of '.c/.h' file per peripheral" on project settings.
+ <br />
+ 6)Config your Board on "FingerprintConfig.h"
   <br />
- 6)Put FP_RxCallBack() function to your Interrupt routin on "stm32fxxx_it.c".
+ 7)Put FP_RxCallBack() function to your Interrupt routin on "stm32fxxx_it.c".
   <br />
- 7)Put FP_Loop() into your "while" on Mani Function.
+ 8)Put FP_Loop() into your "while" on Mani Function.
   <br />
- 8)Call FP_Init().
+ 9)Call FP_Init().
   <br />
