@@ -17,7 +17,7 @@ SM25 Fingerprint Library For STM32
  5)Select "General peripheral Initalizion as a pair of '.c/.h' file per peripheral" on project settings. 
  6)Config your Board on "FingerprintConfig.h"
  7)Put FP_RxCallBack() function to your Interrupt routin on "stm32fxxx_it.c".
- 8)Put FP_Loop() into your "while" on Mani Function.
+ 8)Put FP_Loop() into your "while" in Main Function.
  9)Call FP_Init().
 */
 
