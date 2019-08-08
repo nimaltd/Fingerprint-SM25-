@@ -1,4 +1,4 @@
-#SM25 Fingerprint Library For STM32
+# SM25 Fingerprint Library For STM32
  <br />
  1)Open Stm32CubeMX.
   <br />
